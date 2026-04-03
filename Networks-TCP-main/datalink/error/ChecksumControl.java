@@ -6,6 +6,7 @@ public class ChecksumControl {
 
     public static void attachChecksum(Frame f) {
         f.checksum = Frame.computeChecksum(f.data);
+        // checksumgit 
     }
 
     public static boolean verify(Frame f) {
